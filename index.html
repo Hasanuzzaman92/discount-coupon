@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount by coupon code</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <section class="">
+        <div class="text-center mt-12 border w-1/2 mx-auto p-8 shadow-lg">
+            <h1 class="text-4xl font-medium text-gray-600">Enter Coupon code <br> <span class="text-6xl font-bold text-red-600">&</span></h1>
+            <h1 class="text-4xl font-medium text-rose-600">Get upto 30% Discount</h1>
+        </div>
+        <div class="grid grid-cols-2 gap-4 w-3/4 mx-auto mt-10 text-center">
+            <div class="bg-rose-300 py-10">
+                <h4 class="text-3xl font-medium">Total Price</h4>
+                <h2 class="text-5xl font-bold text-red-600">$<span id="total-price">500</span></h2>
+            </div>
+
+            <div class="bg-sky-400 py-10">
+                <h4 class="text-3xl font-medium">Discount Price</h4>
+                <h2 class="text-5xl font-bold text-red-600">$<span id="discount-price">00</span></h2>
+            </div>
+        </div>
+        <div class="w-3/4 mx-auto bg-blue-400 p-10 my-10 text-center">
+            <input class="block w-full p-3 rounded-lg text-center" type="text" name="" id="input-value" placeholder="Enter 'DOM' as coupon code">
+            <button id="apply-btn" class="w-1/4 text-white font-medium text-xl mt-4 rounded-lg bg-rose-400 px-5 py-2">Apply</button>
+        </div>
+    </section> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
